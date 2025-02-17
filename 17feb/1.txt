@@ -1,0 +1,16 @@
+Steps to install java :
+
+
+Author - james gosling
+implementation -c\c++
+
+ext. - .java & .class
+
+part of java - 
+1. core java
+2. adv java
+
+
+Website Design  - client vs server (req & res)
+----------------------------------------------
+
