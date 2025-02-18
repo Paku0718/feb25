@@ -148,10 +148,15 @@ Statement :
 			case2:
 				-----
 				break;
+			default:
+				-----
+				break;
 		}
 
 Loops:
 1. for
+	syntax: 
+		for(int i; cond; incre/decr){};
 2. while
 3. Do_while
 4. foreach
