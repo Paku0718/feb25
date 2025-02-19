@@ -35,6 +35,55 @@ class ArrayDemo {
 			System.out.println(b[0]); 
 		}
 	*/	
+	
+	
+		int a[][] = {{1,2,3,4},{5,6,7,8}};
+	
+
+	/*	
+		for(int i=0; i<2; i++){
+			for(int j=0; j<4;j++){
+				System.out.println(a[i][j]);
+			}
+		System.out.println();
+		}
+	*/
+	
+	
+		for(int i=0; i<a.length; i++){
+			for(int j =0; j<a[i].length; j++){
+				System.out.print(a[i][j] + " ");
+			}
+		System.out.println();
+		}
+		
+
+		//System.out.print(a.length);
+		//System.out.print(a[0].length);
+		//System.out.print(a[1].length);
+
+
+		int arr[][];
+		
+		int arr1[][] = new int[2][2];
+		//int arr2[][] = new int[][4];
+
+		for(int i = 0; i<arr1.length; i++){
+			for(int j = 0; j<arr1[i].length; j++){
+				arr1[i][j]=10;
+			}
+		System.out.println();
+		}
+
+		for(int i=0; i<arr1.length; i++){
+			for(int j=0; j<arr1[i].length; j++){
+				System.out.print(arr1[i][j]);
+			}
+		System.out.println();
+		}
+
 
 	}	
+
+	
 }
