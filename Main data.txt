@@ -158,7 +158,15 @@ Loops:
 	syntax: 
 		for(int i; cond; incre/decr){};
 2. while
+	syntax:
+		while(cond){ }
+3. do_while	
+	syntax: 
+		do{ }
+
 3. Do_while
+
+
 4. foreach
 
 
