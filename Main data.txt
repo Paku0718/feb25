@@ -162,13 +162,13 @@ Loops:
 		while(cond){ }
 3. do_while	
 	syntax: 
-		do{ }
-
-3. Do_while
-
+		do{
+		
+		 }while(cond);
 
 4. foreach
 
+----------------------------------------------------------
 
 
 
@@ -186,10 +186,82 @@ Loops:
 
 
 
+-------------------------------------------------------
+Day 4
+class & object:
+
+class & object:
+
+its own properties & behavior
+ex:laptop
+
+Properties:
+	ram
+	os
+	cpu
+	processor
+	rom
+	graphiccard
+	screen
+	
+Behavior:
+	execute the code
+	play movies/songs
+	games
+	camera
+
+class:
+
+class Laptop{
+	int ram;
+	String name;
+	double price;
+	
+	void accessCamera(){
+
+	}
+	void playMovies(){
+
+	}
+	void playGame(){
+	
+	}
+}
+
+school  
+
+Properties :
+	name
+	noOfStudents
+	teachers
+	address
+
+Behavior :
+	teaching()
+	sportsActivity()
+	extraSession()
+	exam()
 
 
+car
 
+Properties :
+	name 
+	color
+	price
+	milage
+	cc
+	topspeed
+	fueltype
+	hp
 
+Behaviour:
+	driving()
+	transportation()
+	
+	
+
+	
 
 
 
