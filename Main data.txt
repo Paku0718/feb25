@@ -258,6 +258,19 @@ Properties :
 Behaviour:
 	driving()
 	transportation()
+------------------------------------------
+
+Day 5 :
+Variable - 
+
+1. local var
+	var defined of a method
+
+2. instance var
+	defined in class
+
+3. static var
+	- defined in class with static with static keyword
 	
 	
 
