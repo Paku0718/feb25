@@ -21,6 +21,10 @@ class Student1{
 		System.out.println(this.id + " " + course + " " + id);
 	}
 
+	Student1 getStudent(){
+		return this;
+	}
+
 	public static void main(String args[]){
 		Student1 s = new Student1();
 		Student1 s1 = new Student1(2,"a",91);
@@ -30,8 +34,17 @@ class Student1{
 		//s1.display();
 		//s2.display();
 
+	/*
 		s2.display(100);
 		s1.display(10000);
+		s1.display(50);
+	*/
+		
+		Student1 s3 = s2.getStudent();
+		s3.display();
+
+		System.out.println(s2);
+		System.out.println(s3);
 			
 	}
 
