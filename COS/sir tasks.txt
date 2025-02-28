@@ -1,0 +1,16 @@
+You can use the cal command in Linux to display July 2022 with weeks starting from Monday. Run:
+
+ncal -M -w -b 7 2022
+
+date -d "2022-07-01" "+%Y-%m-%d (Week %V - Monday Start)"
+date -d "2022-07-04" "+%Y-%m-%d (Week %V)"
+date -d "2022-07-11" "+%Y-%m-%d (Week %V)"
+date -d "2022-07-18" "+%Y-%m-%d (Week %V)"
+date -d "2022-07-25" "+%Y-%m-%d (Week %V)"
+
+
+
+
+
+
+

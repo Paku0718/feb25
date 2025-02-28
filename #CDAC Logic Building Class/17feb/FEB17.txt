@@ -1,0 +1,112 @@
+Steps to install java :
+
+
+Author - james gosling
+implementation -c\c++
+
+ext. - .java & .class
+
+part of java - 
+1. core java
+2. adv java
+
+
+Website Design  - client vs server (req & res)
+----------------------------------------------
+
+javac <fileName with ext>
+java <className without ext>
+
+----------------------------------------------
+
+java is a WORA - write once run anywhere
+
+Features of java :
+1. simple
+2. highlevel
+3. platform independent
+4. java is OOPs
+5. multithreaded
+6. secure
+
+----------------------------------------------
+
+identifiers: demo, method, variables
+
+token: ;, (, ), {, }
+
+keywords: class, public, static, void, string
+
+----------------------------------------------
+
+class:
+1. variables
+2. methods
+3. constructors
+4. instance block
+5. static block
+
+----------------------------------------------
+
+Data types :
+byte - 1  =  -128 to 127
+short - 2 = -32,768 to 32,767
+int - 4 = -2,147,483,648 to 2,147,483,647
+long - 8 = -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+float - 4 = upto 7 decimal digits
+double - 8 = upto 16 decimal digits
+
+string
+char - 2 = characters representation of ASCII values 
+0 to 255
+
+Boolean - 1 (Default value) = true, false
+
+----------------------------------------------
+
+
+Algorithms
+
+is a finite set of instructions to solve a specific problems.....
+
+first algo
+1. start
+2. take 2 numbers
+3. add 2 numbers
+4. print add
+5. stop
+
+--------------
+1. start
+2. take 3 number
+3. add 3 numbers
+4. print add
+5. stop
+
+-----------------
+
+Flowchart -  pictorial presentation of algorithms.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
