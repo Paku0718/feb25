@@ -6,10 +6,10 @@ class Test{
 		
 		//char ch = 0xBEFA;
 		//char ch = 'ubeaf';
-		//char ch = -10;
-		//char ch = '\x';
+		//char ch = -10;//error
+		//char ch = '\x';//error
 		//char ch = 'a';
-		char ch1 = "a";
+		char ch1 = "a";// Error : incopatible type- string cannot be converted to char
 		
 		
 		System.out.println(ch1);
