@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class ArrayDemo8 {
 	public static void main(String args[]){
-		Scanner sc = new Scanner(System.in)l
+		Scanner sc = new Scanner(System.in);
 		int arr[][]= new int[3][3];
 	}
 	
@@ -12,7 +12,7 @@ class ArrayDemo8 {
 			arr[i][j] = sc.nextInt();
 		}
 	}
-	
+	/*
 	for(int i =0;i<3;i++){
 		for(int j=0;j<3;j++){
 			System.out.println(arr[i][j]);
@@ -20,5 +20,11 @@ class ArrayDemo8 {
 		System.out.println();
 		
 	}
+	*/
+	
+	for(int a[][]:arr[i][j]){
+		System.out.print(a);
+	}
+	
 	
 }

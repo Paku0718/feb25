@@ -24,5 +24,9 @@ class  EmployeeDemo3{
 		Employee e2 = new Employee();
 		e2.set(222, "kunal", 45);
 		e2.show();
+		
+		Employee.add(2,3);
+		System.out.println(Employee.add(5,7));
+		System.out.println();
 	}
 }

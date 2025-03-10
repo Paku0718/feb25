@@ -17,6 +17,7 @@ class  Employee{
 
 class  EmployeeDemo2{
 	public static void main(String args[]){
+		int studId;
 		Employee e1 = new Employee();
 		e1.set(111, "Paras", 100);
 		e1.show();
