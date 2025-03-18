@@ -25,7 +25,7 @@ class DownCastingDemo3{
 		Animal a2 =new Cat();
 		
 		if(a2 instanceof Cat){
-			Cat c2 = (Cat) a2;
+			Cat c2 = (Cat) a2;//downcast
 			c2.show();//child method
 		}else{
 			System.out.println("Downcasting : Not Possible");
