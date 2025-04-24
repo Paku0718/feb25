@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body{
+        background: linear-gradient(#E53935, #F57C00);
+        height: 100vh;
+      }
+      #login-form-container {
+        width: 450px;
+        height: 500px;
+        /* background-color: #5E35B1; */
+        background-color: white;
+        /* background-color: rgb(2, 136, 209); */
+        text-align: center;
+        margin: auto;
+        margin-top: 130px;
+        padding-top: 20px;
+        border-radius: 10px;
+      }
+      input{
+        width: 60%;
+        margin-bottom: 20px;
+        height: 30px;
+      }
+      #login-btn{
+        width: 30%;
+        height: 30px;
+        background-color: #F57C00;
+        border: none;
+        cursor: pointer;
+        color: white;
+      }
+      #login-btn:hover{
+        background:#E53935;
+        border: solid #F57C00;
+        transition:0.5s;
+        border-color: 0;
+      }
+      .form-field{
+        border-top-width: 0;
+        border-bottom-width: 0;
+        border-right-width: 0;
+        border-left-width: 0;
+        outline: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="login-form-container">
+      <h2>Login</h2>
+      <form action="">
+        <div>
+          <input type="text" name="" id="" placeholder="Enter Username" class="form-field"/>
+        </div>
+        <div>
+          <input type="text" name="" id="" placeholder="Enter Passsword" class="form-field"/>
+        </div>
+        <div>
+          <input type="submit" name="" id="login-btn" />
+        </div>
+      </form>
+      <p style="font-style: 20px;">Need Account? <a href="#">Sign Up</a></p>
+    </div>
+  </body>
+</html>

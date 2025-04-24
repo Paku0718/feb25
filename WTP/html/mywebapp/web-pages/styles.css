@@ -1,0 +1,36 @@
+img{
+    border-radius: 20px;
+    border: 2px solid blue;
+    border-color: red;
+    border:dashed;
+    border
+}
+
+h2{
+    color: red;
+    
+}
+
+#head1{
+    color: purple;
+}
+
+.orderlist{
+    background-color: tomato;
+}
+
+#box1{
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: blueviolet;
+    /* padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 50px; */
+    padding: 10px,20px,30px,50px;
+    text-align: center;    
+}

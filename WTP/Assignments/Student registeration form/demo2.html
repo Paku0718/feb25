@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #5D4FB7;
+            margin-bottom: 30px;
+        }
+        .form-container {
+            background-color: #6C5DD3;
+            color: white;
+            padding: 20px;
+        }
+        .form-row {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .form-label {
+            width: 150px;
+            font-size: 14px;
+        }
+        .form-input {
+            flex: 1;
+        }
+        input[type="text"], 
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 0;
+        }
+        .date-select {
+            display: flex;
+            gap: 10px;
+        }
+        .date-select select {
+            flex: 1;
+        }
+        .gender-options {
+            display: flex;
+            gap: 20px;
+        }
+        .hobby-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .qualification-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5px;
+        }
+        .qualification-table th, 
+        .qualification-table td {
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+        .courses-options {
+            display: flex;
+            gap: 15px;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 8px 15px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        textarea {
+            resize: vertical;
+        }
+        .hint {
+            font-size: 12px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <div class="form-container">
+            <form>
+                <div class="form-row">
+                    <div class="form-label">FIRST NAME</div>
+                    <div class="form-input">
+                        <input type="text" maxlength="30">
+                        <span class="hint">(max 30 characters a-z and A-Z)</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">LAST NAME</div>
+                    <div class="form-input">
+                        <input type="text" maxlength="30">
+                        <span class="hint">(max 30 characters a-z and A-Z)</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">DATE OF BIRTH</div>
+                    <div class="form-input date-select">
+                        <select id="day">
+                            <option>Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                        <select id="month">
+                            <option>Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                        <select id="year">
+                            <option>Year</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">EMAIL ID</div>
+                    <div class="form-input">
+                        <input type="email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">MOBILE NUMBER</div>
+                    <div class="form-input">
+                        <input type="text" maxlength="10">
+                        <span class="hint">(10 digit number)</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">GENDER</div>
+                    <div class="form-input gender-options">
+                        <label>
+                            <input type="radio" name="gender" value="male"> Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female"> Female
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">ADDRESS</div>
+                    <div class="form-input">
+                        <textarea rows="4"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">CITY</div>
+                    <div class="form-input">
+                        <input type="text" maxlength="30">
+                        <span class="hint">(max 30 characters a-z and A-Z)</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">PIN CODE</div>
+                    <div class="form-input">
+                        <input type="text" maxlength="6">
+                        <span class="hint">(6 digit number)</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">STATE</div>
+                    <div class="form-input">
+                        <input type="text" maxlength="30">
+                        <span class="hint">(max 30 characters a-z and A-Z)</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">COUNTRY</div>
+                    <div class="form-input">
+                        <input type="text" value="India" readonly>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">HOBBIES</div>
+                    <div class="form-input hobby-options">
+                        <label>
+                            <input type="checkbox" name="hobby" value="drawing"> Drawing
+                        </label>
+                        <label>
+                            <input type="checkbox" name="hobby" value="singing"> Singing
+                        </label>
+                        <label>
+                            <input type="checkbox" name="hobby" value="dancing"> Dancing
+                        </label>
+                        <label>
+                            <input type="checkbox" name="hobby" value="sketching"> Sketching
+                        </label>
+                        <label>
+                            <input type="checkbox" name="hobby" value="others"> Others
+                            <input type="text" style="width: 150px;">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">QUALIFICATION</div>
+                    <div class="form-input">
+                        <table class="qualification-table">
+                            <tr>
+                                <th>Sl.No.</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of Passing</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text" maxlength="10"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                        <div style="text-align: center; margin-top: 5px;">
+                            <span class="hint">(10 char max)</span>
+                            <span class="hint" style="margin-left: 160px;">(upto 2 decimal)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">COURSES APPLIED FOR</div>
+                    <div class="form-input courses-options">
+                        <label>
+                            <input type="radio" name="course" value="bca"> BCA
+                        </label>
+                        <label>
+                            <input type="radio" name="course" value="bcom"> B.Com
+                        </label>
+                        <label>
+                            <input type="radio" name="course" value="bsc"> B.Sc
+                        </label>
+                        <label>
+                            <input type="radio" name="course" value="ba"> B.A
+                        </label>
+                    </div>
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
