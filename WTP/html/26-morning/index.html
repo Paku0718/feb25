@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // a = [10,20,30];
+        // b = [4,5,6,7];
+        // c = [...a,b];
+        // console.log(c);//[10, 20, 30, Array(4)]
+        // document.write(c);//10,20,30,4,5,6,7
+
+        // sid =101;
+        // sname = "Paras";
+
+        // student = {
+        //     id:sid,
+        //     name:sname
+        // }
+        // console.log(student);
+        // console.log(student.id);
+        // console.log(student.name);
+
+        
+        // sid =101;
+        // sname = "Paras";
+
+        // student = {
+        //     sid,
+        //     sname
+        // }
+        // console.log(student);
+        // console.log(student.sid);
+        // console.log(student.sname);
+
+        // x=8;
+        // y=4;
+        // obj = {x,y};
+        // console.log(obj);
+
+        // o1 = {
+        //     id:1,
+        //     name:"Amit"
+        // }
+        // o2 ={
+        //     marks:87,
+        //     phone:"5651561"
+        // }
+        // o3 ={...o1,...o2}
+        // console.log(o3);
+
+        // x="id";
+        // obj = {
+        //     [x]:198,
+        //     name:"Paras"
+        // } // value of x should become the key-name for obj
+        // console.log(obj);
+
+        // function add(x,y){
+        //     z= x+y;
+        //     return z;
+        //     // console.log(z);
+        // }
+
+        // result = add(2,6);
+        // console.log(result);
+
+        // function checkEligibility(age){
+        //     if(age>=18){
+        //         console.log("User is eligible");
+        //     }else{
+        //         console.log("User is not eligible");
+        //     }
+        // }
+
+        // checkEligibility(24);
+
+        // obj = function show(){
+        //     console.log("hello world");
+        // }
+        // console.log(obj);
+        // obj();
+        // show();//error //show reference has been destroyed when show into obj
+
+        // a=3;
+        // function demo(){
+        //     a= 5;
+        //     console.log("inside function a= ", a);
+        // }
+        // demo();
+        // console.log("outside function a= ", a);
+
+        
+        // function demo(){
+        //     var a= 5;
+        //     console.log("inside function a= ", a);
+        // }
+        // demo();
+        // console.log("outside function a= ", a);//can't use 
+
+        // var a =5;
+        // function demo(){
+        //     a= 5;
+        //     console.log("inside function a= ", a);
+        // }
+        // demo();
+        // console.log("outside function a= ", a);//can use
+    
+        // var a=5;
+        // console.log("a = ", a);
+        // var a=7;
+        // console.log("a = ", a);
+
+        // console.log(a);
+        // var a=5;
+        // //hoisting: everytime before the js code execution, the js engine will search for the declaration statements e.g variables and functions and it will place all those statement at top of the code.  
+
+
+        // function show(){
+        //     if(true){
+        //         let a=5;
+        //         console.log("Inside of if a=",a);// accessible here
+        //     }
+        //     console.log("outside of if a=",a);//not accessible here
+
+        // }
+        // show();
+
+
+        // console.log(a);
+        // let a = 6;
+
+
+        // function show(){
+        //     console.log("hii");
+        // }
+        // var obj  = show();
+        // console.log(obj);
+        // show();
+
+        // function demo(arg){
+        //     console.log(arg);
+        // }
+        // demo(4);
+        // demo("Hello");
+
+        // function show(){
+        //     console.log("inside show func");
+        // }
+
+        // function demo(arg){
+        //     console.log(arg);
+        //     arg();
+        // }
+        // demo(show);
+
+        // function show(){
+        //     console.log("inside show func");
+        // }
+        // function demo(arg){
+        //     console.log("arg = ", arg);
+        //     arg();
+        // }
+
+        // demo(function(){//anonymous function kyu ki bahar to use nhi hoga agar argument me define karre
+        //     console.log("inside show func");
+        // });
+
+
+        // var sum = (a,b) =>{
+        //     // var c =a+b;
+        //     return a+b;
+        // }
+
+        // const rs = sum(2,8);
+        // console.log(rs);
+
+        // var sum = (a,b) => a+b;
+
+        // const rs = sum(2,8);
+        // console.log(rs);
+
+        // function increment(n){
+        //     return n+5;
+        // }
+        // const rs = increment(12);
+        // console.log(rs);
+            
+
+        // const increment = n => n+5;
+        // const rs = increment(12);
+        // console.log(rs);
+
+        // var arr = [1,8,6,3,5,10,4,9,7,12];
+        // arr.forEach((value, index)=>{
+        //     console.log(index,value);
+        // })
+
+        // var arr = [1,8,6,3,5,10,4,9,7,12];
+        // var process = (value, index)=>{
+        //     console.log(index,value);
+        // }
+        // arr.forEach(process);
+
+
+        // take even no from array and assign in new array
+
+        // var arr = [1,8,6,3,5,10,4,9,7,12];
+        // var evenArr = [];
+        // arr.forEach((value)=>{
+        //     if(value%2==0){
+        //         evenArr.push(value);
+        //     }
+        // })
+        // console.log(evenArr);
+
+        // var arr = [1,8,6,3,5,10,4,9,7,12];
+        // var evenArr = arr.filter(value => value%2==0);
+        // console.log(evenArr);
+
+        var arr = [1,8,6,3,5,10,4,9,7,12];
+        var newArr = arr.map(value=> {return value*2});
+        console.log(newArr);
+
+</script>
+</body>
+</html>

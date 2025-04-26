@@ -1,7 +1,8 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Segoe Ui Light";
 }
 #navbar{
+    /* background-color: yellow; */
     width: 100%;
     height: 90px;
 }
@@ -9,8 +10,81 @@
     width: 80px;
     height: 80px;
 }
-
 #nav-links{
     float: right;
     margin-top: 30px;
+}
+
+a{
+    margin-right: 25px;
+    text-decoration: none;
+    border-color: #4CAF50;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#description-section{
+    text-align: center;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#description-text{
+    text-align: justify;
+}
+
+.green-btn{
+    margin-right: 25px;
+    text-decoration: none;
+    border-color: #4CAF50;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.5s;
+    background:white;
+}
+
+.green-btn:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#box-container{
+    width:100%;
+    height: 300px;
+    /* background: blue; */
+    text-align: center;
+}
+
+#box-1{
+    width: 33.33%;
+    height: inherit;
+    /* background-color: red; */
+    float: left;
+}
+#box-2{
+    width: 33.33%;
+    height: inherit;
+    /* background-color: green; */
+    float: left;
+}
+#box-3{
+    width: 33.33%;
+    height: inherit;
+    /* background-color: yellow; */
+    float: right;
 }
