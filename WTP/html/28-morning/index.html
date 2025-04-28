@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // class Student{
+        //     constructor(){
+        //         // console.log("in constructor");
+        //         this.id= 101;
+        //         this.name = "Suresh";
+        //     }
+        // }
+
+        // var s1= new Student();
+        // var s2= new Student();
+        // console.log(s1.id, s1.name);
+        // // console.log(s1.name);
+
+        // class Student{
+        //     constructor(x,y){
+        //         this.id= x;
+        //         this.name = y;
+        //     }
+        //     display(){
+        //         console.log(this.id,this.name);
+        //     }
+        // }
+
+
+
+        // var s1= new Student(101,"Paras");
+        // s1.display();
+        // // console.log(s1.id, s1.name);
+        // var s2= new Student(102,"Kunal");
+        // s2.display()
+        // // console.log(s2.id, s2.name);
+
+
+
+        // class Rectangle{
+        //     constructor(l,b) {
+        //         this.l = l;
+        //         this.b = b;
+        //     }
+        //     getArea(){
+        //         return this.l*this.b;
+        //     }
+        //     getParameter(){
+        //         return 2*(this.l+this.b);
+        //     }
+        // }
+
+        // var r1 = new Rectangle(4,2);
+        // const area = r1.getArea();
+        // const parameter = r1.getParameter();
+        // console.log("area = ", area);
+        // console.log("Parameter = ", parameter);
+
+
+
+        // class A{
+        //     constructor(){
+        //         this.x=18;
+        //         this.y=20;
+        //     }
+        //     show(){
+        //         console.log("hello i am A")
+        //     }
+        // }
+
+        // class B extends A{
+            
+        //     constructor(){
+        //         super();
+        //         this.z = 21;
+        //     }
+        // }
+
+        // var bObj = new B();
+        // bObj.show();
+        // console.log(bObj.x, bObj.y, bObj.z);
+
+
+
+        // var obj ={
+        //     x:5,
+        //     y:function(){
+        //         console.log("hello");
+        //     }
+        // }
+
+        // obj.y();
+
+
+        //will write same obj
+        // var obj ={
+        //     x:5,
+        //     y:function(){
+        //         console.log(this);
+        //     }
+        // }
+
+        //with array functio
+         var obj ={
+            x:5,
+            y:()=>{
+                console.log(this);
+            }
+        }
+        obj.y();
+    </script>
+</body>
+</html>

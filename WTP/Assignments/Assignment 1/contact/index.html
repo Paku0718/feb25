@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      display: flex;
+      min-height: 100vh;
+    }
+    .contact-info {
+      background: linear-gradient(135deg, #4f65ff, #ff89bb);
+      color: white;
+      width: 35%;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contact-info h2 {
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+    .contact-info p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    .contact-info p strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .social-icons {
+      margin-top: 30px;
+    }
+    .social-icons a {
+      margin-right: 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .contact-form {
+      background: #f9f9f9;
+      width: 65%;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contact-form h2 {
+      margin-bottom: 30px;
+      font-size: 28px;
+      color: #333;
+    }
+    .form-group {
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px 10px;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      background: transparent;
+      outline: none;
+      font-size: 16px;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: #4f65ff;
+    }
+    .submit-btn {
+      background: #4f65ff;
+      color: white;
+      padding: 12px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 4px;
+    }
+    .submit-btn:hover {
+      background: #3c4ec1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-info">
+    <h2>Get in touch</h2>
+    <p><strong>Name</strong>HTML CSS Tutorials</p>
+    <p><strong>Email</strong>htmlcsstutorials@gmail.com</p>
+    <p><strong>Phone</strong>+91 1234567890</p>
+    <p><strong>Address</strong>123 Street, Bangalore, India, 500001</p>
+    <div class="social-icons">
+      <a href="#">🌐</a>
+      <a href="#">🐦</a>
+      <a href="#">📷</a>
+      <a href="#">📘</a>
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Email ID" required>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Website">
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Contact Number">
+      </div>
+      <div class="form-group">
+        <textarea rows="4" placeholder="Message"></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
