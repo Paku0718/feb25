@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Prac</h1>
+    <input type="text" name="" id="inputage">
+    <button onclick="final()">Submit</button>
+    <p id="output"></p>
+    <script>
+        function final(){
+            var age = parseInt(document.getElementById("inputage"));
+            if(age>=10 && age<18){
+                document.getElementById("output").innerHTML = "Age is between 10 and 18";
+            }
+            else if(age>18 && age<=45){
+                document.getElementById("output").innerHTML = "Age is between 18 and 45";
+            } 
+            else if(age>45){
+                document.getElementById("output").innerHTML = "Age is above 45";
+            }
+            else{
+                document.getElementById("output").innerHTML = "invalid age";
+            }
+        }
+    </script>
+</body>
+</html>

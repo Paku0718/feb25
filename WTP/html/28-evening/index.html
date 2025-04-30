@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // setTimeout(()=>{
+      //     console.log("hello");
+      // },2000);
+      // console.log("bye");
+
+      // setTimeout(()=>{
+      //     console.log("hello")
+      // },3000);
+      // setTimeout(()=>{
+      //     console.log("hii")
+      // },1000);
+      // setTimeout(()=>{
+      //     console.log("bye")
+      // },2000);
+
+      // console.log("calculating sum...");
+      // setTimeout(()=>{
+      //     var x=2;
+      //     var y=3;
+      //     var z=x+y;
+      //     console.log("sum is ", z);
+      // },1000);
+
+      // console.log("calculating factorial...");
+      // setTimeout(()=>{
+      //     var num = 5;
+      //     var f=1;
+      //     for(var i=1; i<=num; i++){
+      //         f=f*i;
+      //     }
+      //     console.log("factorial is ", f);
+      // },3000)
+
+      // console.log("calculating square...");
+      // setTimeout(()=>{
+      //     var n=6;
+      //     var sq= n*n;
+      //     console.log("square is ", sq);
+      // },2000)
+
+      // setTimeout(() => {
+      //     console.log("hello");
+      //     setTimeout(()=>{
+      //         console.log("hii");
+      //     },1000);
+      //     // stmt;
+      // }, 3000);
+
+      // setTimeout(() => {
+      //     console.log("hello");
+      //     setTimeout(()=>{
+      //         console.log("hii");
+      //         setTimeout(() => {
+      //             console.log("bye");
+      //         }, 2000);
+      //     },1000);
+      // }, 3000);
+
+      // console.log("calculating sum...");
+      // setTimeout(()=>{
+      //     var x=2;
+      //     var y=3;
+      //     var z=x+y;
+      //     console.log("sum is ", z);
+      //     console.log("calculating factorial...");
+      // setTimeout(()=>{
+      //     var f=1;
+      //     for(var i=1; i<=z; i++){
+      //         f=f*i;
+      //     }
+      //     console.log("factorial is ", f);
+      // },3000)
+      // },1000);
+
+      // var evenPromise = new Promise((resolve,reject)=>{
+      //     var num = 8;
+      //     if(num%2==0){
+      //         resolve();
+      //     }
+      //     else{
+      //         reject();
+      //     }
+      // });
+
+      // evenPromise.then(()=>{
+      //     console.log("promise resolved and no. is even");
+      // }).catch(()=>{
+      //     console.log("promise rejected and no. is odd");
+      // })
+
+      // var evenPromise = new Promise((resolve,reject)=>{
+      //     var num = 9;
+      //     if(num%2==0){
+      //         resolve("promise resolved and no. is even");
+      //     }
+      //     else{
+      //         reject("promise rejected and no. is odd");
+      //     }
+      // });
+
+      // evenPromise.then((result)=>{
+      //     console.log(result);
+      // }).catch((error)=>{
+      //     console.log(error);
+      // })
+
+      //   function getPromiseObject() {
+      //     var evenPromise = new Promise((resolve, reject) => {
+      //       var num = 8;
+      //       if (num % 2 == 0) {
+      //         resolve("promise resolved and no. is even");
+      //       } else {
+      //         reject("promise rejected and no. is odd");
+      //       }
+      //     });
+      //     return evenPromise;
+      //   }
+      //   var rs = getPromiseObject();
+      // //   console.log(rs);
+      // rs.then((result)=>{
+      //     console.log(result);
+      // }).catch((error)=>{
+      //     console.log(error);
+      // });
+
+      // function getPromiseObject(num) {
+      //     var evenPromise = new Promise((resolve, reject) => {
+      //       if (num % 2 == 0) {
+      //         resolve("promise resolved and no. is even");
+      //       } else {
+      //         reject("promise rejected and no. is odd");
+      //       }
+      //     });
+      //     return evenPromise;
+      //   }
+      //   var rs = getPromiseObject(4);
+      // //   console.log(rs);
+      // rs.then((result)=>{
+      //     console.log(result);
+      // }).catch((error)=>{
+      //     console.log(error);
+      // });
+
+      //for pending
+      // function sum(a,b){
+      //     var sumPromise = new Promise((resolve, reject)=>{
+      //         console.log("calculating sum...");
+      //         setTimeout(()=>{
+      //             var c=a+b;
+      //             if(c){
+      //                 resolve()
+      //             }
+      //             else{
+      //                 rejcet();
+      //             }
+      //         },1000)
+      //     })
+      //     return sumPromise;
+      // }
+      // var res = sum(2,3);
+      // console.log(res);
+
+      // function sum(a,b){
+      //     var sumPromise = new Promise((resolve, reject)=>{
+      //         console.log("calculating sum...");
+      //         setTimeout(()=>{
+      //             var c=a+b;
+      //             if(c){
+      //                 resolve(c)
+      //             }
+      //             else{
+      //                 rejcet();
+      //             }
+      //         },1000)
+      //     })
+      //     return sumPromise;
+      // }
+      // sum(2,3).then((result)=>{
+      //     console.log("Sum is ", result);
+      // }).catch((error)=>{
+      //     console.log(error);
+      // })
+
+      function sum(a, b) {
+        var sumPromise = new Promise((resolve, reject) => {
+          console.log("Calculating sum...");
+
+          setTimeout(() => {
+            var c = a + b;
+            if (c) {
+              resolve(c);
+            } else {
+              reject("Something went wrong!!!!");
+            }
+          }, 1000);
+        });
+        return sumPromise;
+      }
+
+      function factorial(num) {
+        var fact = new Promise((resolve, reject) => {
+          setTimeout(() => {
+            f = 1;
+            for (var i = 1; i < num; i++) {
+              f = f * i;
+            }
+
+            if (f) {
+              resolve(f);
+            } else {
+              reject("Error");
+            }
+          }, 3000);
+        });
+        return fact;
+      }
+
+
+      // todo
+      // function square(n){
+      //   return new Promise((resolve, reject)=>{
+      //     console.log("calculating square...");
+      //     setTimeout(()=>{
+
+      //     },2000)
+      //   })
+      // }
+
+      sum(2, 3)
+        .then((result) => {
+          console.log("Now Sum is :", result);
+          var fact = factorial(result);
+          return fact;
+        })
+        .then((fact) => {
+          console.log(fact);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    </script>
+  </body>
+</html>

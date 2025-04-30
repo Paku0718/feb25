@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+form{
+    margin-bottom:20px;
+}
+input{
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 300px;
+}
+output{
+    margin-top: 20px;
+    font-size: 18px;
+    color: darkblue;
+}

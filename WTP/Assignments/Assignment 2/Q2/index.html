@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registeration Form</h1>
+    <form id="myform" onsubmit="displayDetails(event)">
+       <input type="text" name="" id="firstName" placeholder="First Name">
+       <input type="text" name="" id="lastName" placeholder="Last Name">
+       <input type="tel" name="" id="contactNo" placeholder="Contact Number">
+       <input type="email" name="" id="emailId" placeholder="Email Id">
+       <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+        function displayDetails(event){
+            event.preventDefault();
+            const firstName = document.getElementById("firstName").value;
+            const lastName = document.getElementById("lastName").value;
+            const contactNo = document.getElementById("contactNo").value;
+            const emailId = document.getElementById("emailId").value;
+
+            console.log(firstName);
+            const outputDiv = document.getElementById("output");
+            outputDiv.innerHTML = `
+                <h3>Entered Details:</h3>
+                <p><strong> First Name: </strong> ${firstName}</p>  
+                <p><strong> Last Name: </strong> ${lastName}</p>
+                <p><strong> Contact Number: </strong> ${contactNo}</p>
+                <p><strong> Email Id: </strong> ${emailId}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
