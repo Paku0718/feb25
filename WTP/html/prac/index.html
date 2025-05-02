@@ -7,12 +7,12 @@
 </head>
 <body>
     <h1>Prac</h1>
-    <input type="text" name="" id="inputage">
+    <input type="number" name="" id="inputage">
     <button onclick="final()">Submit</button>
     <p id="output"></p>
     <script>
         function final(){
-            var age = parseInt(document.getElementById("inputage"));
+            var age = parseInt(document.getElementById("inputage").value);
             if(age>=10 && age<18){
                 document.getElementById("output").innerHTML = "Age is between 10 and 18";
             }
