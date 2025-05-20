@@ -1,0 +1,37 @@
+package com.cdac.tester;
+//import com.cdac.utils.*;
+//import all static members of the DBUtils class
+import static com.cdac.utils.DBUtils.closeConnection;
+import static com.cdac.utils.DBUtils.getConnection;
+import static com.cdac.utils.DBUtils.openConnection;
+import static java.lang.System.out;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class TestConnection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			//open connection
+			openConnection();
+			//get connection
+			Connection cn = getConnection();
+			System.out.println("Connected to DB...." + cn);
+			//close connection
+			closeConnection();
+			List<Integer> myList = new ArrayList<>();
+			System.out.println(myList.getClass());
+			myList=new LinkedList<>();
+			System.out.println(myList.getClass());
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		out.print("Main over");
+
+	}
+
+}

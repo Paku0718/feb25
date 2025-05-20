@@ -1,0 +1,23 @@
+package com.cdac.dao;
+import java.sql.*;
+import com.cdac.pojos.User;
+import static com.cdac.utils.DBUtils.*;
+
+public class UserDaoImpl implements UserDao {
+	//dependency -DB connection - DBUtils
+	private Connection connection;
+	private PreparedStatement pst;
+	
+	//def constructor
+	public UserDaoImpl()throws SQLException {
+		// establish db cn
+		openConnection();
+		connection = getConnection();
+		//create PreparedStatement
+	} 
+	
+	@Override
+	public User signIn(String email, String pwd) throws SQLException{
+		return null;
+	}
+}

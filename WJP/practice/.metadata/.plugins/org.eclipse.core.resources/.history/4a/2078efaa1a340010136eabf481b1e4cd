@@ -1,0 +1,14 @@
+package com.cdac.tester;
+import java.util.Scanner;
+public class TestLayeredApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try(Scanner sc = new Scanner(null)) {
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

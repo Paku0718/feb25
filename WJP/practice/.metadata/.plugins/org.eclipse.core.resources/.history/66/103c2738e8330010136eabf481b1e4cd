@@ -1,0 +1,18 @@
+package com.cdac.pojos;
+
+import java.sql.Date;
+
+public class User {
+	private int userId;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private Date dob;
+	private boolean status;
+	private String userRole;
+	
+	/POJO - add a default constructor
+	
+	
+}
