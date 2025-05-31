@@ -1,0 +1,11 @@
+package com.lcwd.hiber.util;
+
+import org.hibernate.*;
+
+import com.mysql.cj.xdevapi.SessionFactory;
+
+public class HibernateUtil {
+	
+	private static SessionFactory sessionFactory;
+	
+}

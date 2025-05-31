@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Lob"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
+    <fullyQualifiedTypeName name="javax.security.auth.login.Configuration.Parameters"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="com.lcwd.hiber.util.HibernateUtil"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+</qualifiedTypeNameHistroy>

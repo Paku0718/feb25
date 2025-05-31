@@ -1,0 +1,21 @@
+package com.lcwd.hiber;
+
+import com.lcwd.hiber.util.HibernateUtil;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	System.out.println( "Hello World!" );
+    	System.out.println("We are learning Hibernate");
+    	
+    	//student create
+    	//save :hibernate
+    	
+    	SessionFactory sessionfaactory = HibernateUtil.getSessionFactory();
+    }
+}

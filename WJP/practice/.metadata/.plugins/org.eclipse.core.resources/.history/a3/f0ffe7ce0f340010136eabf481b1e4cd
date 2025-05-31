@@ -1,8 +1,0 @@
-package com.cdac.dao;
-import com.cdac.pojos.User;
-
-public interface UserDao {
-//sign in
-	// .......signIn(email, password)throws SE
-	 User signIn(String eamil, String pwd) throws SQLException;
-}

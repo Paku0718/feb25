@@ -1,0 +1,12 @@
+package com.lcwd.hiber;
+
+import com.lcwd.hiber.entities.Student;
+
+public class StudentService {
+
+	//save student
+	
+	public void saveStudent(Student student) {
+		
+	}
+}
