@@ -1,7 +1,0 @@
-package com.lcwd.hiber.util;
-
-public class HibernateUtil {
-	
-	private static SessionFactory sessionFactory;
-	
-}

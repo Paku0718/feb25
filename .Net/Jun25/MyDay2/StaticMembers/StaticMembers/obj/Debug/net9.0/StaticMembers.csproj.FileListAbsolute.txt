@@ -1,0 +1,14 @@
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\StaticMembers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\StaticMembers.AssemblyInfoInputs.cache
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\StaticMembers.AssemblyInfo.cs
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\StaticMembers.csproj.CoreCompileInputs.cache
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\bin\Debug\net9.0\StaticMembers.exe
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\bin\Debug\net9.0\StaticMembers.deps.json
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\bin\Debug\net9.0\StaticMembers.runtimeconfig.json
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\bin\Debug\net9.0\StaticMembers.dll
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\bin\Debug\net9.0\StaticMembers.pdb
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\StaticMembers.dll
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\refint\StaticMembers.dll
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\StaticMembers.pdb
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\StaticMembers.genruntimeconfig.cache
+D:\Paras\CDAC\.Net\Jun25\MyDay2\StaticMembers\StaticMembers\obj\Debug\net9.0\ref\StaticMembers.dll

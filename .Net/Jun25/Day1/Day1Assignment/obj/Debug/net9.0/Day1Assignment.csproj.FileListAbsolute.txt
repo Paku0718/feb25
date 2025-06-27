@@ -1,0 +1,14 @@
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\bin\Debug\net9.0\Day1Assignment.exe
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\bin\Debug\net9.0\Day1Assignment.deps.json
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\bin\Debug\net9.0\Day1Assignment.runtimeconfig.json
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\bin\Debug\net9.0\Day1Assignment.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\bin\Debug\net9.0\Day1Assignment.pdb
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\Day1Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\Day1Assignment.AssemblyInfoInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\Day1Assignment.AssemblyInfo.cs
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\Day1Assignment.csproj.CoreCompileInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\Day1Assignment.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\refint\Day1Assignment.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\Day1Assignment.pdb
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\Day1Assignment.genruntimeconfig.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\Day1Assignment\obj\Debug\net9.0\ref\Day1Assignment.dll

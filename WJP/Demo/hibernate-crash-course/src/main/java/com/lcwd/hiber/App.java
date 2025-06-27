@@ -4,6 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import com.lcwd.hiber.entities.Certificate;
 import com.lcwd.hiber.entities.Student;
 import com.lcwd.hiber.util.HibernateUtil;
 
@@ -25,12 +26,27 @@ public class App
     	
     	//create student object
     	Student student = new Student();
-    	student.setName("Paras Kurnajekar");
-    	student.setCollege("Matoshri");
+    	student.setName("Kunal Kurnajekar");
+    	student.setCollege("Raisoni");
     	student.setActive(true);
-    	student.setPhone("12324564");
-    	student.setAbout("This is genune student");
+    	student.setPhone("124568");
+    	student.setAbout("This is geinune student");
     	student.setFatherName("Dhananjay");
+    	
+    	Certificate certificate = new Certificate();
+    	certificate.setTitle("This is java certification");
+    	certificate.setLink("link");
+    	certificate.setStudent(student);
+    	
+    	
+    	Certificate certificate1 = new Certificate();
+    	certificate1.setTitle("This is python certification");
+    	certificate1.setLink("link");
+    	certificate1.setStudent(student);
+    	
+    	student.getCertificates().add(certificate);
+    	student.getCertificates().add(certificate1);
+    	
     	
     	SessionFactory sessionfactory = HibernateUtil.getSessionFactory();
     	System.out.println(sessionfactory);
@@ -41,7 +57,7 @@ public class App
     	
     	try {
     		transaction = session.beginTransaction();
-//    		session.persist(student);
+    		session.persist(student);
     		
     		transaction.commit();
     		System.out.println("Student saveed sucessufully");

@@ -1,0 +1,14 @@
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\bin\Debug\net9.0\FieldsAndProperties.exe
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\bin\Debug\net9.0\FieldsAndProperties.deps.json
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\bin\Debug\net9.0\FieldsAndProperties.runtimeconfig.json
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\bin\Debug\net9.0\FieldsAndProperties.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\bin\Debug\net9.0\FieldsAndProperties.pdb
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\FieldsAndProperties.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\FieldsAndProperties.AssemblyInfoInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\FieldsAndProperties.AssemblyInfo.cs
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\FieldsAndProperties.csproj.CoreCompileInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\FieldsAndProperties.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\refint\FieldsAndProperties.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\FieldsAndProperties.pdb
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\FieldsAndProperties.genruntimeconfig.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\FieldsAndProperties\obj\Debug\net9.0\ref\FieldsAndProperties.dll

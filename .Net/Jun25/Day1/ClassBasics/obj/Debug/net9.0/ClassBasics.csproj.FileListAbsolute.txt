@@ -1,0 +1,14 @@
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\bin\Debug\net9.0\ClassBasics.exe
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\bin\Debug\net9.0\ClassBasics.deps.json
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\bin\Debug\net9.0\ClassBasics.runtimeconfig.json
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\bin\Debug\net9.0\ClassBasics.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\bin\Debug\net9.0\ClassBasics.pdb
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ClassBasics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ClassBasics.AssemblyInfoInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ClassBasics.AssemblyInfo.cs
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ClassBasics.csproj.CoreCompileInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ClassBasics.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\refint\ClassBasics.dll
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ClassBasics.pdb
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ClassBasics.genruntimeconfig.cache
+D:\Paras\CDAC\.Net\Jun25\Day1\ClassBasics\obj\Debug\net9.0\ref\ClassBasics.dll

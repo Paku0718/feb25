@@ -37,7 +37,7 @@ public class Student {
 	
 	private boolean active = true;
 	
-	@OneToMany(mappedBy = "student", fetch = FetchType.LAZY, cascade=CascadeType.ALL, orphanRemoval= true)
+	@OneToMany(mappedBy = "student", fetch = FetchType.EAGER, cascade=CascadeType.ALL, orphanRemoval= true)
 	private List<Certificate> certificates = new ArrayList<>(); 
 	
 	@Lob
@@ -98,6 +98,16 @@ public class Student {
 	public void setAbout(String about) {
 		this.about = about;
 	}
+
+	public List<Certificate> getCertificates() {
+		return certificates;
+	}
+
+	public void setCertificates(List<Certificate> certificates) {
+		this.certificates = certificates;
+	}
+	
+	
 	
 	
 }

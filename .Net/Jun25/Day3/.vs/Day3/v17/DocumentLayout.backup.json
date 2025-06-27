@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6F01FB-C042-4326-9AC4-D4AFD371B3AE}|RefAndValueTypes2\\RefAndValueTypes2.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\refandvaluetypes2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E6F01FB-C042-4326-9AC4-D4AFD371B3AE}|RefAndValueTypes2\\RefAndValueTypes2.csproj|solutionrelative:refandvaluetypes2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA1E191-1046-40AE-8EE3-F3F207131AAD}|ValueTypes\\ValueTypes.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\valuetypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA1E191-1046-40AE-8EE3-F3F207131AAD}|ValueTypes\\ValueTypes.csproj|solutionrelative:valuetypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA36FE6A-880E-4641-B7C7-7BD146607633}|RefAndValue\\RefAndValue.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\refandvalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA36FE6A-880E-4641-B7C7-7BD146607633}|RefAndValue\\RefAndValue.csproj|solutionrelative:refandvalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39CA409-BB36-48C1-8267-F4B51317AE8B}|NullableTypes\\NullableTypes.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\nullabletypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39CA409-BB36-48C1-8267-F4B51317AE8B}|NullableTypes\\NullableTypes.csproj|solutionrelative:nullabletypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE953A-DC6B-4FBA-96FB-DD9439D30A80}|InterfaceExample2\\InterfaceExample2.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\interfaceexample2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCE953A-DC6B-4FBA-96FB-DD9439D30A80}|InterfaceExample2\\InterfaceExample2.csproj|solutionrelative:interfaceexample2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78AC3331-2DEE-4411-AC10-BA9F6085A349}|EmployeeAssign2\\EmployeeAssign2.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\employeeassign2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78AC3331-2DEE-4411-AC10-BA9F6085A349}|EmployeeAssign2\\EmployeeAssign2.csproj|solutionrelative:employeeassign2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76A1B954-3E93-4D58-80B9-84A73C11BC8F}|DefaultImplementationInInterfaces\\DefaultImplementationInInterfaces.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\defaultimplementationininterfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76A1B954-3E93-4D58-80B9-84A73C11BC8F}|DefaultImplementationInInterfaces\\DefaultImplementationInInterfaces.csproj|solutionrelative:defaultimplementationininterfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{922614D7-6147-46B9-96A9-1A0516D65158}|Arrays\\Arrays.csproj|d:\\paras\\cdac\\.net\\jun25\\day3\\arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{922614D7-6147-46B9-96A9-1A0516D65158}|Arrays\\Arrays.csproj|solutionrelative:arrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\ValueTypes\\Program.cs",
+              "RelativeDocumentMoniker": "ValueTypes\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\ValueTypes\\Program.cs",
+              "RelativeToolTip": "ValueTypes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T05:01:00.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\RefAndValueTypes2\\Program.cs",
+              "RelativeDocumentMoniker": "RefAndValueTypes2\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\RefAndValueTypes2\\Program.cs",
+              "RelativeToolTip": "RefAndValueTypes2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:59:54.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\RefAndValue\\Program.cs",
+              "RelativeDocumentMoniker": "RefAndValue\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\RefAndValue\\Program.cs",
+              "RelativeToolTip": "RefAndValue\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:59:50.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\NullableTypes\\Program.cs",
+              "RelativeDocumentMoniker": "NullableTypes\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\NullableTypes\\Program.cs",
+              "RelativeToolTip": "NullableTypes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:59:47.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\InterfaceExample2\\Program.cs",
+              "RelativeDocumentMoniker": "InterfaceExample2\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\InterfaceExample2\\Program.cs",
+              "RelativeToolTip": "InterfaceExample2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:59:43.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\EmployeeAssign2\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeAssign2\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\EmployeeAssign2\\Program.cs",
+              "RelativeToolTip": "EmployeeAssign2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:59:38.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\DefaultImplementationInInterfaces\\Program.cs",
+              "RelativeDocumentMoniker": "DefaultImplementationInInterfaces\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\DefaultImplementationInInterfaces\\Program.cs",
+              "RelativeToolTip": "DefaultImplementationInInterfaces\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:59:32.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\Arrays\\Program.cs",
+              "RelativeDocumentMoniker": "Arrays\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Day3\\Arrays\\Program.cs",
+              "RelativeToolTip": "Arrays\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T13:11:34.309Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

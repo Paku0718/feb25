@@ -1,0 +1,14 @@
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\bin\Debug\net9.0\CollectionExample.exe
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\bin\Debug\net9.0\CollectionExample.deps.json
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\bin\Debug\net9.0\CollectionExample.runtimeconfig.json
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\bin\Debug\net9.0\CollectionExample.dll
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\bin\Debug\net9.0\CollectionExample.pdb
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\CollectionExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\CollectionExample.AssemblyInfoInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\CollectionExample.AssemblyInfo.cs
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\CollectionExample.csproj.CoreCompileInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\CollectionExample.dll
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\refint\CollectionExample.dll
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\CollectionExample.pdb
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\CollectionExample.genruntimeconfig.cache
+D:\Paras\CDAC\.Net\Jun25\Prac\CollectionExample\obj\Debug\net9.0\ref\CollectionExample.dll

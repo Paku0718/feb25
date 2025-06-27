@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Paras\\CDAC\\.Net\\Jun25\\MyDay2\\StaticMembers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83733E93-F7D6-4070-ADF1-53E7103C1DD1}|StaticMembers\\StaticMembers.csproj|d:\\paras\\cdac\\.net\\jun25\\myday2\\staticmembers\\staticmembers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83733E93-F7D6-4070-ADF1-53E7103C1DD1}|StaticMembers\\StaticMembers.csproj|solutionrelative:staticmembers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\MyDay2\\StaticMembers\\StaticMembers\\Program.cs",
+              "RelativeDocumentMoniker": "StaticMembers\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\MyDay2\\StaticMembers\\StaticMembers\\Program.cs",
+              "RelativeToolTip": "StaticMembers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:20:08.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

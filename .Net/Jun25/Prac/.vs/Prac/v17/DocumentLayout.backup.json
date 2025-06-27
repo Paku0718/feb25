@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Paras\\CDAC\\.Net\\Jun25\\Prac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{242F045C-85FA-4803-B8B5-70512C238E2B}|ExceptionHandling\\ExceptionHandling.csproj|d:\\paras\\cdac\\.net\\jun25\\prac\\exceptionhandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242F045C-85FA-4803-B8B5-70512C238E2B}|ExceptionHandling\\ExceptionHandling.csproj|solutionrelative:exceptionhandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F273169-3457-4B84-978E-BE3629FB1962}|CollectionExample\\CollectionExample.csproj|d:\\paras\\cdac\\.net\\jun25\\prac\\collectionexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F273169-3457-4B84-978E-BE3629FB1962}|CollectionExample\\CollectionExample.csproj|solutionrelative:collectionexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9400A44E-61E2-4583-9127-8F699208BD31}|prac\\prac.csproj|d:\\paras\\cdac\\.net\\jun25\\prac\\prac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9400A44E-61E2-4583-9127-8F699208BD31}|prac\\prac.csproj|solutionrelative:prac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Prac\\ExceptionHandling\\Program.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Prac\\ExceptionHandling\\Program.cs",
+              "RelativeToolTip": "ExceptionHandling\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:04:18.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Prac\\CollectionExample\\Program.cs",
+              "RelativeDocumentMoniker": "CollectionExample\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Prac\\CollectionExample\\Program.cs",
+              "RelativeToolTip": "CollectionExample\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwFMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:20:13.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Paras\\CDAC\\.Net\\Jun25\\Prac\\prac\\Program.cs",
+              "RelativeDocumentMoniker": "prac\\Program.cs",
+              "ToolTip": "D:\\Paras\\CDAC\\.Net\\Jun25\\Prac\\prac\\Program.cs",
+              "RelativeToolTip": "prac\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:12:14.505Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

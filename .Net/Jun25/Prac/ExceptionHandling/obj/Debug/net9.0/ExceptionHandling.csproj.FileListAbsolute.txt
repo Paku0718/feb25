@@ -1,0 +1,14 @@
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\bin\Debug\net9.0\ExceptionHandling.exe
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\bin\Debug\net9.0\ExceptionHandling.deps.json
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\bin\Debug\net9.0\ExceptionHandling.runtimeconfig.json
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\bin\Debug\net9.0\ExceptionHandling.dll
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\bin\Debug\net9.0\ExceptionHandling.pdb
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ExceptionHandling.AssemblyInfoInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ExceptionHandling.AssemblyInfo.cs
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ExceptionHandling.dll
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\refint\ExceptionHandling.dll
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ExceptionHandling.pdb
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ExceptionHandling.genruntimeconfig.cache
+D:\Paras\CDAC\.Net\Jun25\Prac\ExceptionHandling\obj\Debug\net9.0\ref\ExceptionHandling.dll

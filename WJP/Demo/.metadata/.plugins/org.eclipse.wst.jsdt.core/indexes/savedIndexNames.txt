@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+D:\Paras\CDAC\WJP\Demo\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2672236965.index
-3857823067.index
-459942768.index
-1252478057.index
-1500549298.index
-3276074948.index

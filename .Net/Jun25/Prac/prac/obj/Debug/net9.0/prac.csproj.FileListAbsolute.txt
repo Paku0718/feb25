@@ -1,0 +1,14 @@
+D:\Paras\CDAC\.Net\Jun25\prac\prac\bin\Debug\net9.0\prac.exe
+D:\Paras\CDAC\.Net\Jun25\prac\prac\bin\Debug\net9.0\prac.deps.json
+D:\Paras\CDAC\.Net\Jun25\prac\prac\bin\Debug\net9.0\prac.runtimeconfig.json
+D:\Paras\CDAC\.Net\Jun25\prac\prac\bin\Debug\net9.0\prac.dll
+D:\Paras\CDAC\.Net\Jun25\prac\prac\bin\Debug\net9.0\prac.pdb
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\prac.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\prac.AssemblyInfoInputs.cache
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\prac.AssemblyInfo.cs
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\prac.csproj.CoreCompileInputs.cache
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\prac.dll
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\refint\prac.dll
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\prac.pdb
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\prac.genruntimeconfig.cache
+D:\Paras\CDAC\.Net\Jun25\prac\prac\obj\Debug\net9.0\ref\prac.dll
